@@ -1,0 +1,522 @@
+html{
+   font-size: 16px; 
+   font-family: 'Karla', sans-serif;
+   color:ghostwhite;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+}
+
+c h1{
+    font-size: 120px;
+    text-align: center;
+}
+
+.horizontal{
+    width: 100%;
+    padding: 1rem;
+}
+
+section article {
+	background-color: transparent;
+	width: 500px;
+	padding: 40px;
+}
+
+section article p {
+	line-height: 4;
+}
+
+/*Fonts*/
+
+.FontPrincipalTitle{
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+    color: cornsilk;
+}
+
+.FontPrincipalSubtitle{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.FontCenterSubtitle{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.FontMainSubtitle{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.FontPrincipalText{
+    font-size: 1rem;
+}
+
+.FontSecondaryTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    font-style: normal;
+}
+
+.FontSecondarySubtitle{
+    font-family:  'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.FontSecondaryText{
+    font-family:  'Roboto', sans-serif;
+    font-size: 1rem;
+    color: darkgray;
+}
+
+.FontSecondaryTextWhite{
+    font-family:  'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.formatoItalica {
+	font-style: italic;
+	text-align: right;
+	color: red;
+	font-weight: bold;
+}
+
+.tituloRojo {
+	color: #ff0303;
+	text-align: right; 
+}
+
+.tituloVerde {
+	color: green;
+	text-decoration: underline;
+
+}
+
+
+ /**Cajas **/
+
+ .blackBox{
+    background-color: black;
+
+}
+.dustBoxMenu{
+    background-color: #938172;
+    width: 100%;
+    height: 60px; 
+    padding: 10px;  
+}
+.dustBoxHeader{
+    background-color: #938172;
+    width: 100%;
+    height: 50px;   
+
+}
+
+.blackBox{
+    background-color: black;
+}
+
+.dustdBox{
+    background-color: #938172;
+}
+
+.sandBox{
+    background-color: #CC9E61;
+}
+
+.ironBox{
+    background-color: #626266;
+
+}
+
+.coralBox{
+    background-color: coral;
+
+}
+
+/***** header *****/
+
+
+
+/***** Nav *****/
+#mainNav {
+	margin: 10px;
+	width: 900px;
+    font-family:  'Roboto', sans-serif;
+}
+
+#mainNav li {
+    position:relative;
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainNav a{
+    color:black;
+	display:block;
+	padding:3px;
+	text-decoration:none;
+    background-color: #938172;
+	color:black;;
+}
+
+#mainNav a:hover {
+	background-color:black;;
+	color:#fff;
+}
+
+#mainNav li ul {
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	left:-3px;
+	top:22px;
+	display:none;
+}
+
+#mainNav li ul li {
+	width:150px;
+	font-size:smaller;
+	border-top:none;
+}
+
+#mainNav li ul li:first-child {
+	border-top:1px solid #000;
+}
+
+#mainNav li:hover ul {
+	display:block;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+
+/****** index *****/
+.mainImage {
+    background-image: url("../images/logos/man-593333_1280.jpg");
+    background-color: transparent;
+    background-size: 100em;
+    height: 500px;
+    width: 100%;
+
+  }
+
+  .mainSection {
+    background-color: transparent;
+    height: 600px;
+    width: 100%;
+
+  }
+
+
+
+/***** ubicacion *****/
+
+.sectionUbicacion {
+	height: 600px;
+	background-image: linear-gradient(to right, #CC9E61, #938172);
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
+
+}
+
+.ubicationImage {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+/***** servicios *****/
+.sectionServicios {
+	display: flex;
+	padding: 1em;
+}
+
+#mainServicios{
+	display: flex;
+	flex: 1;
+	margin-top: 20px;
+	flex-direction: column;    
+}
+.accordion-header {
+    background-color:yellow;
+    color:white;
+    border:1px solid #938172;
+}
+
+.accordion-button:focus{
+	color:white;
+	background-color:black;
+    border:1px solid #938172;
+}
+.accordion-item{
+	border:1px solid #938172;
+    color:black;
+    background-color:#CC9E61;
+}
+
+/***** novedades *****/
+
+.blogHijo{
+	width: 100px;
+
+    margin: 80px 0;
+
+    
+	display: flex;
+	flex-direction: column;
+
+    flex-shrink:inherit ;
+    flex-basis: 20%;
+
+	align-items: center;
+	justify-content: baseline;
+
+	background-image: linear-gradient(to right, #CC9E61, #938172);
+	color: #fff;
+
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
+}
+
+.blogHijo h3{
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.blogHijo img{
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.blogHijo p{
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color:transparent;
+	border-radius: 10px;
+}
+
+.blogHijo a{
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #43cea2;
+	border-radius: 10px;
+}
+
+.blogPadre{
+    width: 100%;
+	display: flex;
+	justify-content: space-around;
+	/*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+
+    
+}
+
+#mainNovedades{
+	display: flex;
+	flex: 1;
+	margin-top: 20px;
+}
+
+article, aside, iframe{
+	flex:1;
+	padding: 1rem;
+	margin:1px;
+}
+
+article, iframe{
+	background-color: #CC9E61;
+}
+
+
+
+
+
+/***** contacto *****/
+
+.contactImage {
+    background-color: transparent;
+    width: 100%;
+
+  }
+
+  .contactSection{
+    width: 100%;
+    background-size: 100em;
+    font-size: 16px;
+    color: #798e94;
+    margin: auto;
+    background-color: #938172;
+}
+
+.contacto{
+    border: 1px solid #938172;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.contacto label{
+    display: block; 
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 15px; 
+}
+
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px; 
+    border: 1px solid #d7d5ce;
+    resize: none; 
+    box-shadow:0 0 0 3px #f7f5ee;
+    margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 3px #dde9ec;
+}
+
+.contacto input[type='submit']{
+    border: 1px solid #d7d6ce;
+    box-shadow:0 0 0 3px #f7f5ee;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 
+    background: #e4f1f6; /* fallback para navegadores que no soporten degradados */
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #CC9E61 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#CC9E61 100%);
+}
+.contacto input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #CC9E61 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#CC9E61 100%);
+}
+.contacto input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #CC9E61 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#CC9E61 100%);
+}
+
+
+/***** laboral *****/
+
+.sectionGrande{
+    height: 250px;
+}
+
+
+
+/**** otros ***/
+.lista{
+    list-style-type:lower-alpha;
+}
+
+
+ 
+
+/****** render ***/
+/*
+@media only screen and (min-width: 1024px) {
+	#grillaNosotros  {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+            "header header"
+            "imagen productos"
+            "imagen servicios"
+            "footer footer";
+        }
+      }
+
+*/
+/*
+ @media only screen and (min-width:  320px) and (max-width: 768px){
+        #grillaNosotros {
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-areas:
+                "header"
+                "imagen "
+                "productos"
+                "servicios"
+                "footer";
+          }
+
+          aside img{
+              width: auto;
+          }
+
+ 
+        }
+
+        @media only screen and (min-width:  768px) and (max-width: 800px){
+            #grillaNosotros {
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-areas:
+                    "header"
+                    "imagen "
+                    "productos"
+                    "servicios"
+                    "footer";
+              }
+    
+              aside img{
+                  width: auto;
+              }
+    
+     
+            }
+*/
+/***** header logo ****/
+.logo{
+	width: 100px;
+	flex-basis: 10%;
+	animation-name: aparecer;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+    background-color: #cfe6ef;
+}
+
+@keyframes aparecer{
+	0%{
+		opacity: 0;
+	}
+
+	50%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+	}
+}
+
+.efectoFoto img{
+	transition: all .5s;
+}
+
+.efectoFoto img:hover{
+	transform: scale(1.1);
+}
